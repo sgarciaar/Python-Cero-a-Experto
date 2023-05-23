@@ -32,6 +32,7 @@ print(f"si ordenamos tu texto al revez dira '{texto_invertido}'")
 
 print("buscando la palabra python")
 
+
 buscar_python= 'python' in texto
 dic= {True:"si",False:"no"}
 print(f"La palabra python {dic[buscar_python]} se encuentra en el texto")
