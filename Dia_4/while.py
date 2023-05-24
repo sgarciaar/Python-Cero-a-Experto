@@ -14,7 +14,6 @@ else:
     print("gracias")
 
 #ejercicio con pass
-
 resp="s"
 while resp=="s":
 #el pass se usa para que podamos ejecutar el codigo sin tomar encuenta el while
@@ -22,11 +21,18 @@ while resp=="s":
 print("hola")
 
 #ejercicio con breack
-
 nombre = input("tu nombre: ")
 for letra in nombre:
     if letra == "r":
         break
     print (letra)
+#ejercicio con continui
+alumno = input("tu nombre de alumno: ")
+for nombre in alumno:
+    if nombre == "r":
+        #se salta esta condicion y va por la proxima
+        continue
+    print (letra)
+
 
 
