@@ -1,0 +1,36 @@
+pip install django
+
+luego creamos dentro la carpeta src la carpeta proyecto con
+
+django-admin startproject proyecto
+
+iniciar servidor dentro de la carpeta proyecto
+python manage.py runserver
+
+Aparece un mensaje solicitando actualizar migraciones
+
+actualizamos las migraciones 
+python manage.py migrate
+
+para crear un administrador debemos ejecutar en consola 
+python manage.py createsuperuser
+
+crearemos un app pequeñas aplicaciones (nucleo, estructura)
+python manage.py startapp base
+
+
+preguntara nombre, email y contraseña
+
+yo deje 
+sebastiangarcia
+123456
+
+y podremos entrar a http://127.0.0.1:8000/admin
+y crear usuarios y grupos
+
+
+se genera un carpeta dentro de la aplicacion con los campos de la tabla tarea
+python manage.py makemigrations
+
+y ahora lo migramos a nuestro sitio
+python manage.py migrate

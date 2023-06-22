@@ -1,0 +1,27 @@
+crearemos un entorno virtual y aislados del ordenador con la terminal con el comando
+pip install virtualenv
+
+mustra todas la bibliotecas y modulos de python con su version
+pip freeze
+
+para crear un entorno virtual dentro de una capeta en particular
+abrimos una terminal dentro de la carpeta 
+y escribimo: virtualenv + (nombre)
+virtualenv p1
+y esto crear una nueva carpeta con el nombre que se le dio al comando psea p1
+
+una vez creado, hay que activarlo con el siguiente comando
+p1 es el nommbre del entorno vitual
+esto es para windows
+.\p1\Scripts\activate
+esto es para mac
+pip
+
+mustra todas la bibliotecas y modulos de python con su version en el entorno vitual el cual esta vacio
+pip freeze
+
+para instalar una librerio con una version anterior es 
+pip install pyjokes==0.4.0
+
+para desactivar un entorno virtual usamos el comando
+deactivate
